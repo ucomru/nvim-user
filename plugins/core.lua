@@ -1,5 +1,4 @@
 return {
-
   {
     "goolord/alpha-nvim",
     opts = function(_, opts)
@@ -13,5 +12,4 @@ return {
       return opts
     end,
   },
-
 }
