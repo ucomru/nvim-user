@@ -1,4 +1,4 @@
-
+  
 return {
   -- vim.keymap.set()
   v = { -- visual mode
@@ -35,7 +35,7 @@ return {
     ["<M-K>"] = { function() require("astronvim.utils.buffer").move(vim.v.count > 0 and vim.v.count or 1) end,
         desc = "Move buffer tab right" },
     ["<M-C-[>"] = { "<M-j>" },
-    ["<M-C-]>"] = { "<M-k>>" },
+    ["<M-C-]>"] = { "<M-k>" },
     -- leader ..
     ["<Leader>\\"] = { "<Cmd>split<cr>", desc = "Horizontal Split" },
     ["<Leader>|"] = { "<Cmd>vsplit<cr>", desc = "Vertical Split" },
